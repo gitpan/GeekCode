@@ -1,0 +1,31 @@
+                     Convert::GeekCode version 0.1
+               (Convert and generate geek code sequences)
+
+  Copyright 2001 by Autrijus Tang <autrijus@autrijus.org>.
+
+  All rights reserved.  This module is free software; you can
+  redistribute it and/or modify it under the same terms as Perl
+  itself.
+
+
+INTRODUCTION
+
+  XXX TODO
+
+  See the POD documentation for complete details, features, and usage.
+
+
+INSTALLATION
+
+  Follow the standard installation procedure for Perl modules, which is to
+  type the following commands:
+
+          perl Makefile.PL
+          make
+          make test
+          make install
+
+  You'll probably need to do the last as root.  If instead you wish to
+  install the module by hand, simply copy it into a directory named Term in
+  your Perl library directory.
+

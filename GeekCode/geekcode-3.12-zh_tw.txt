@@ -1,0 +1,1211 @@
+ID
+geekcode
+
+Title
+§Þ«È½X
+
+Version
+3.12
+
+Language
+zh_tw
+
+Author
+Robert A. Hayden <rhayden@geekcode.com>
+
+Translator
+Autrijus Tang <autrijus@autrijus.org>
+
+Sequence
+_ d s a C U* P L E W N o K w O M V PS PE Y PGP t 5 X R tv b DI D G e h r x:y:z
+
+Begin
+G
+
+Head
+-----BEGIN GEEK CODE BLOCK-----
+
+Tail
+------END GEEK CODE BLOCK------
+
+Ver
+Version: 
+
+[:]
+'@'
+¦ý¬O¤]¤£¤@©w...
+
+'$'
+¾a³o­ÓÁÈ¿ú!
+
+'?'
+³sÅ¥³£¨SÅ¥¹L...
+
+'>'
+§Ú§Æ±æ±N¨Ó¯à»¡:
+
+'('
+¦³®É­Ô§Ú·|»¡:
+
+'/'
+;
+
+'!'
+§Ú¹ç¥i¤£±N¦Û¤vÂkÃþ.
+
+')'
+ 
+
+[C:¹q¸£]
+
+'++++'
+§Ú­¢¤£¤Î«Ý·Q§â·sªº¥Í¤Æ¬É­±¸Ë¨ìÀYÆ`¸Ì.
+
+'+++'
+ºô¸ô¤§¥~ÁÙ¦³§Oªº¥Í¬¡? ¶}ª±¯º! §Ú¤w¸g´X¶g¨S¥h¤W½Ò¤F.
+
+'++'
+¹q¸£¥e§Ú¥Í¬¡ªº¤@¤j³¡¥÷. ¨C¤Ñ§Ú°_§É²Ä¤@¥ó¨Æ´N¬O¤W½u. §Ú¦b¶g¥½ª±¹q¸£¹CÀ¸©Î³s½u¹CÀ¸, ¦ý¬OÁÙ¤£¦Ü©óÅý¦Û¤v·í±¼.
+
+''
+¹q¸£´N¯­¬O¤u¨ã¦Ó¤w. §Ú¥Î¥¦¨Ó°µ·Q°µªº¨Æ.
+
+'-'
+¤ñ­pºâ¾÷½ÆÂøªºªF¦è§Ú´N·d¤£À´¤F.
+
+'--'
+¶}¾÷­n«ö­þ¸Ì?
+
+'---'
+¦pªG¦A´£¨ì¹q¸£, §Ú´N­n§ì¨g¤F!
+
+
+[D:·´·À¾Ô¤h]
+
+'++++'
+§Ú¬OiD Softwareªº­û¤u.
+
+'+++'
+§Ú¨C¤Ñ¤U¸ü·sªº PWAD ÀÉ, §ó·s©ÇÃ~, ªZ¾¹, ­µ®Ä©MÀ³¥Îµ{¦¡. §Ú¬O·´·À¾Ô¤h¤§¯«. §Ú³¬¤W²´·ú³£¯à¦b­ì¥»ªº¦a¹Ï¤W¥Î³Ì°ªÃø«×¯}Ãö.
+
+'++'
+§Úª±¹L¦@¨É³nÅéª©, ¶R¤F¥¿¦¡ª©, ¥´±oÁÙ¤£¿ù. §Ú¦³®É­Ô·|¤U¸ü PWAD ÀÉª±ª±¬Ý.
+
+'+'
+³o¬O­Ó¦³½ìªº°Ê§@¹CÀ¸, «Ü¾A¦X¦b¤U¤ÈµL²áªº®É­Ôª±.
+
+''
+§Úª±¹L³o­Ó¹CÀ¸, Ä±±o¨S¤°»ò¤£¤@¼Ëªº.
+
+'-'
+§Úª±¹L³o­Ó¹CÀ¸, Ä±±o¹ê¦b¤£«ç»ò¼Ë.
+
+'--'
+³o¬O­Ó¶W¯Å¼É¤Oäú¤ßªº¹CÀ¸.
+
+'---'
+·´·À¾Ô¤hÄê³z¤F. §ÚÃh©À Zork.
+
+'----'
+¦b§Úªº Atari 2000 ¤W³£¦³§ó¦nªº¹CÀ¸.
+
+
+[E:Emacs]
+
+'+++'
+Emacs ¬O§Úªºµn¤J©R¥O¦æ!! M-x doctor ¬O§Úªº¤ß²zÂå¥Í! §Ú¥Î emacs
+¨Ó»»±±¹qµø©M¯N½c! ©p­Ì³o¨Ç¥Î vi ªº®Ú¥»¤£ª¾¹D¦Û¤v¿ù¹L¤F¤°»ò! §Ú­q¾\
+alt.religion.emacs, alt.sex.emacs, ©M comp.os.emacs.
+
+'++'
+§ÚÀ´ elisp, ¤]±`±`¥Î!
+
+'+'
+Emacs ¯u¤£¿ù! §Ú¥Î¥¦¨ÓÅª¶l¥ó©M°Q½×¸s!
+
+''
+¹ï, §Úª¾¹D¤°»ò¬O emacs, ¤]¥Î¥¦§@¤é±`¤å¦r½s¿è.
+
+'-'
+Emacs ¹ï§Ú¦Ó¨¥¤ÓÃe¤j, ¥\¯à¤Ó¿±µÈ¤F.
+
+'--'
+Emacs ¯­¤£¹L¬O­Óªá«Nªº¤å®Ñ½s¿è¾¹.
+
+'---'
+Emacs Äê³z¤F! vi ¸U·³!!!
+
+'----'
+Emacs Äê³z¤F! pico ¸U·³!!!
+
+
+[G:§Þ«È½X]
+
+'+++++'
+§Ú¬O Robert Hayden.
+
+'++++'
+§Ú«ØÄ³¹L¥¼¨Óª©¥»ªº¤º®e.
+
+'+++'
+§Ú§â§Þ«È½X¾ã­Ó­I¤F¤U¨Ó, ¯à¦b¸£¸Ì¸Ñ¨ä¥L¤Hªº½X.
+§Ú¤]ª¾¹Dºô¸ô¤Wªº³Ì·sª©­n¦b­þ¸Ì§ä.
+
+'++'
+§Úª¾¹D¨C­Ó¦r¥Àªº·N¸q, ¦ý¦³®É­ÔÁÙ¬O±o¬d²Ó¸`.
+
+'+'
+§Ú´¿¸g¬O G++ (©Î§ó°ª), ¦ý·sªºª©¥»¤Óªø¤Ó½ÆÂø¤F.
+
+''
+§Úª¾¹D¤°»ò¬O§Þ«È½X, ¬Æ¦ÜÁÙ§@¤F¦Û¤vªº.
+
+'-'
+³o­Ó§Þ«È½X¯u¬O®ö¶O®É¶¡·¥¤F.
+
+'--'
+¤£¯­¬O®ö¶O®É¶¡, ÁÙªí¥Ü³o­Ó¥s Hayden ªº³Ã¥ëªº¤H¥Í¥F¨ý.
+
+
+[K:Kibo]
+
+'++++++'
+§Ú´N¬O Kibo.
+
+'+++++'
+§Ú©M Kibo °µ¹L·R.
+
+'++++'
+§Ú¨£¹L Kibo.
+
+'+++'
+§Ú¦¬¹L Kibo ªº«H.
+
+'++'
+§ÚÅª¹L Kibo.
+
+'+'
+§Ú³ßÅw Kibo.
+
+''
+§Úª¾¹D½Ö¬O Kibo.
+
+'-'
+§Ú¤£ª¾¹D½Ö¬O Kibo.
+
+'--'
+§Ú°Q¹½ Kibo.
+
+'---'
+§Ú¥Ø«e¥¿¦b°l±þ Kibo, ¥´ºâ§â¥Lªº¤ßÅ¦±q¯Ý¤f¬¡­é¥X¨Ó, ©ñ¦b¥L²´«e¬ÝµÛ¥L¦º.
+
+'----'
+§Ú¬O Xibo.
+
+
+[L:Linux]
+
+'+++++'
+§Ú¬O Linus, ½¤«ô§Ú§a.
+
+'++++'
+§Ú¬O­Ó Linux §Å®v. §Ú¦­À\³ð C µ{¦¡½X, ÁÙ¯d¤U¨¬°÷ªº­G¤f§@®Ö¤ß½X°£¿ù.
+§Ú¸Ë¤F¤Ó¦h­×¥¿ÀÉ, ¦b¤Q­Óª©¥»¤§«e´N·d¤£²M·¡¬O­þ¨Ç¤F. Linux ªº·s¤â·í§Ú¬O
+net.god.
+
+'+++'
+§Úªº¨t²Î¤W¯­¸Ë Linux. §Ú­q¾\ comp.os.linux.*, ¦³®É¬Æ¦ÜÁÙ¦^µª¤W­±ªº°ÝÃD.
+
+'++'
+§Ú*´X¥G*¯­¥Î linux. §Ú©ñ±ó·í Linux.God, ¦ý¬O«Ü°ª¿³¯à§â DOS ´«±¼. §Ú¯­¥Î DOS
+¨Óª±¹q¸£¹CÀ¸.
+
+'+'
+§Ú§â Linux ¸Ë¤F, ¤]¥Î¹L´X¦¸. ¥¦¬Ý°_¨Ó¸ò¨ä¥L§@·~¨t²Î¨S¨â¼Ë.
+
+''
+§Úª¾¹D¤°»ò¬O Linux, ¤]´N³o¼Ë¦Ó¤w.
+
+'-'
+§Ú®Ú¥»¤£·Q¥Î Linux, ©Z¥Õ»¡, §Ú¤@ÂI³£¤£Ä±±o¥¦«ç¼Ë. ¦³¨ä¥L§ó¦nªº§@·~¨t²Î,
+¹³¬O Mac, DOS, ©Î Amiga-OS. ­n¤£µM, ¹³ FreeBSD ³oºØ§Oªº§K¶O Unix OS ÁÙ§ó¦n.
+
+'--'
+Unix Äê³z¤F. ¦]¬° Linux = Unix. Linux Äê³z¤F. §Ú±R«ô¤ñº¸»\¯÷.
+
+'---'
+§Ú´N¬O¤ñº¸»\¯÷.
+
+'!'
+§Ú¬Æ¦Ü¤£ª¾¹D¤°»ò¬O Linux!
+
+
+[M:Macintosh]
+
+'++'
+I am a Mac guru.  Anything those DOS putzes and unix nerds can do, I can do better, and if not, I'll write the damn software to do it.
+
+'+'
+A Mac has it's uses and I use it quite often.
+
+''
+I use a Mac, but I'm pretty indifferent about it.
+
+'-'
+Macs suck.  All real geeks have a character prompt.
+
+'--'
+Macs do more than suck.  They make a user stupid by allowing them to use the system without knowing what they are doing.  Mac weenies have lower IQs than the fuzz in my navel.
+
+
+[N:Usenet]
+
+'++++'
+I am Tim Pierce.
+
+'+++'
+I read so many news groups that the next batch of news comes in before I finish reading the last batch, and I have to read for about 2 hours straight before I'm caught up on the morning's news.  Then there's the afternoon...
+
+'++'
+I read all the news in a select handful of groups.
+
+'+'
+I read news recreationally when I have some time to kill.
+
+''
+Usenet News?  Sure, I read that once.
+
+'-'
+News is a waste of my time and I avoid it completely.
+
+'--'
+News sucks!  'Nuff said.
+
+'---'
+I work for Time Magazine.
+
+'----'
+I am a Scientologist.
+
+'*'
+All I do is read news.
+
+
+[O:OS/2]
+
+'+++'
+I live, eat and breathe OS/2.  All of my hard drives are HPFS.  I am the Anti-Gates.
+
+'++'
+I use OS/2 for all my computing needs.  I use some DOS and Windows programs, but rune them under OS/2.  If the program won't run under OS/2, then obviously I don't need it.
+
+''
+I finally managed to get OS/2 installed but wasn't too terribly impressed.
+
+'-'
+Tried it, didn't like it.
+
+'--'
+I can't even get the thing to install!
+
+'---'
+Windows RULES!!!  Long live Bill Gates.  (See w++++).
+
+'----'
+I am Bill Gates of Borg.  OS/2 is irrelevant.
+
+
+[P:Perl]
+
+'+++++'
+I am Larry Wall, Tom Christiansen, or Randal Schwartz.
+
+'++++'
+I don't write Perl, I speak it.  Perl has superseded all other programming languages.  I firmly believe that all programs can be reduced to a Perl one-liner.  I use Perl to achieve U+++ status.
+
+'+++'
+Perl is a very powerful programming tool. Not only do I no longer write shell scripts,  I also no longer use awk or sed.  I use Perl for all programs of less than a thousand lines.
+
+'++'
+Perl is a powerful programming tool.  I don't write shell scripts anymore because I write them in Perl.
+
+'+'
+I know of perl.  I like perl.  I just haven't learned much perl, but it is on my agenda.
+
+''
+I know Perl exists, but that's all.
+
+'-'
+What's Perl got that awk and sed don't have?
+
+'--'
+Perl users are sick, twisted programmers who are just showing off.
+
+'---'
+Perl combines the power of sh, the clarity of sed, and the performance of awk with the simplicity of C.  It should be banned.
+
+'?'
+What's Pearl?
+
+
+[R:Role-Playing]
+
+'+++'
+I've written and published my own gaming materials.
+
+'++'
+There is no life outside the role of the die.  I know all of the piddly rules of (chosen game).  _MY_ own warped rules scare the rest of the players.
+
+'+'
+I've got my weekly sessions set up and a character that I know better than I know myself.
+
+''
+Role-Playing?  That's just something to do to kill a Saturday afternoon.
+
+'-'
+Gosh, what an utter waste of time!
+
+'--'
+Role-Players are instruments of pure evil.
+
+'---'
+I work for T$R.
+
+'*'
+I thought life WAS role-playing?
+
+
+[DI:Dilbert]
+
+'+++++'
+I am Scott Adams.
+
+'++++'
+I've received mail from Scott Adams.  I'm in the DNRC (Dogbert's New Ruling Class).
+
+'+++'
+I am a Dilbert prototype.
+
+'++'
+I work with people that act a lot like Dilbert and his boss.
+
+'+'
+I read Dilbert daily, often understanding it.
+
+''
+I read Dilbert infrequently, rarely understanding it.
+
+'-'
+Is that the comic about the engineers?
+
+'--'
+Don't read it, but I think the dog is kinda cute.
+
+'---'
+I don't think it's funny to make fun of managers trying their best to run their organizational units.
+
+
+[U:UNIX]
+
+'B'
+(BSD)
+
+'L'
+(Linux)
+
+'U'
+(Ultrix)
+
+'A'
+(AIX)
+
+'V'
+(SysV)
+
+'H'
+(HPUX)
+
+'I'
+(IRIX)
+
+'O'
+(OSF/1 (aka Digital Unix))
+
+'S'
+(SunOS/Solaris)
+
+'C'
+(SCO Unix)
+
+'X'
+(NeXT)
+
+'*'
+(some other(s) not listed)
+
+'+++'
+I don't need to crack /etc/passwd because I just modified su so that it doesn't prompt me.  The admin staff doesn't even know I'm here.  If you don't understand what I just said, this category does NOT apply to you!
+
+'++'
+I've get the entire admin ticked off at me because I am always using all of the CPU time and trying to run programs that I don't have access to.  I'm going to try cracking /etc/passwd next week, just don't tell anyone.
+
+'+'
+I not only have a unix account, but I slam VMS any chance I get.
+
+''
+I have a unix account to do my stuff in.
+
+'-'
+I have a VMS account.
+
+'--'
+I've seen unix and didn't like it.  DEC rules!
+
+'---'
+Unix geeks are actually nerds in disguise.
+
+
+[V:VMS]
+
+'+++'
+I am a VMS sysadmin.  I wield far more power than those UNIX admins, because UNIX can be found on any dweeb's desktop.  Power through obscurity is my motto.
+
+'++'
+Unix is a passing fad compared to the real power in the universe, my VMS system.
+
+'+'
+I tend to like VMS better than Unix
+
+''
+I've used VMS.
+
+'-'
+Unix is much better than VMS for my computing needs.
+
+'--'
+I would rather smash my head repeatedly into a brick wall than suffer the agony of working with VMS.  It's reminiscent of a dead and decaying pile of moose droppings.  Unix rules the universe.
+
+
+[W:World Wide Web]
+
+'+++'
+I am a WebMaster.  Don't even think about trying to view my homepage without the latest version of Netscape.  When I'm not on my normal net connection, I surf the web using my Newton and a cellular modem.
+
+'++'
+I have a homepage.  I surf daily.  My homepage is advertised in my .signature.
+
+'+'
+I have the latest version of Netscape, and wander the web only when there's something specific I'm looking for.
+
+''
+I have a browser and a connection.  Occasionally I'll use them. 
+
+'-'
+The web is really a pain.  Life was so much easier when you could transfer information by simple ASCII.  Now everyone won't even consider your ideas unless you spiff them up with bandwidth-consuming pictures and pointless information links.
+
+'--'
+A pox on the Web!  It wastes time and bandwidth and just gives the uneducated morons a reason to clutter the Internet.
+
+
+[X:X Files]
+
+'++++'
+I am Chris Carter
+
+'+++'
+This is the BEST show on TV, and it's about time.  I've seen everything David Duchovny and Gillian Anderson have ever done that been recorded and I'm a loyal Duchovny/ Gillian Anderson fan.  I've Converted at least 10 people.  I have every episode at SP, debate the fine details on-line, and have a credit for at least 2 YAXAs. 
+
+'++'
+This is one of the better shows I've seen.  I wish I'd taped everything from the start at SP, because I'm wearing out my EP tapes.  I'll periodically debate online.  I've Converted at least 5 people.  I've gotten a YAXA.
+
+'+'
+I've Converted my family and watch the show when I remember.  It's really kinda fun.
+
+''
+Ho hum.  Just another Fox show.
+
+'-'
+It's ok if you like paranoia and conspiracy stories, but, let's face it, it's crap.
+
+'--'
+If I wanted to watch this kind of stuff, I'd talk to Oliver Stone
+
+
+[Y:Cypherpunks]
+
+'+++'
+I am T.C. May
+
+'++'
+I am on the cypherpunks mailing list and active around Usenet.  I never miss an opportunity to talk about the evils of Clipper and ITAR and the NSA.  Orwell's 1984 is more than a story, it is a warning to our's and future generations.  I'm a member of the EFF.
+
+'+'
+I have an interest and concern in privacy issues, but in reality I am not really all that active or vocal.
+
+''
+I'm pretty indifferent on the whole issue.
+
+'-'
+It seems to me that all of these concerns are a little extreme.  I mean, the government must be able to protect itself from criminals and the populace from indecent speech. 
+
+'--'
+Get a life.  The only people that need this kind of protection are people with something to hide.  I think cypherpunks are just a little paranoid.
+
+'---'
+I am L. Detweiler.
+
+
+[_:§Þ«ÈÃþ«¬]
+
+'B'
+°Ó·~§Þ«È
+
+'C'
+¥j¨å§Þ«È
+
+'CA'
+°Ó·~ÃÀ³N§Þ«È
+
+'CM'
+¹q¸£ºÞ²z§Þ«È
+
+'CS'
+¸ê°T¬ì¾Ç§Þ«È
+
+'CC'
+³q°T§Þ«È
+
+'E'
+¤uµ{§Þ«È
+
+'ED'
+±Ð¨|§Þ«È
+
+'FA'
+¬ü³N§Þ«È
+
+'G'
+¬F©²§Þ«È
+
+'H'
+¤H¤å§Þ«È
+
+'IT'
+¸ê°T¬ì§Þ§Þ«È
+
+'J'
+ªk«ß§Þ«È
+
+'LS'
+¹Ï®ÑºÞ²z§Þ«È
+
+'L'
+¤å¾Ç§Þ«È
+
+'MC'
+¤j²³¶Ç¼½§Þ«È
+
+'M'
+¼Æ¾Ç§Þ«È
+
+'MD'
+ÂåÃÄ§Þ«È
+
+'MU'
+­µ¼Ö§Þ«È
+
+'PA'È
+ªíºtÃÀ³N§Þ«È
+
+'P'
+­õ¾Ç§Þ«È
+
+'S'
+¬ì¾Ç(¼Æ²z¥Í¤Æ)§Þ«È
+
+'SS'
+ªÀ·|¬ì¾Ç§Þ«È
+
+'TW'
+§Þ³N¼g§@§Þ«È
+
+'O'
+¨ä¥LÃþ§Þ«È
+
+'U'
+¥¼¨M©w§Þ«È
+
+'AT'
+¸U¯à§Þ«È
+
+'!'
+µL¤ÀÃþ§Þ«È
+
+
+[a:Age]
+
+'+++'
+My age is 60 and up.
+
+'++'
+My age is 50-59.
+
+'+'
+My age is 40-49.
+
+''
+My age is 30-39.
+
+'-'
+My age is 25-29.
+
+'--'
+My age is 20-24.
+
+'---'
+My age is 15-19.
+
+'----'
+My age is 10-14.
+
+'-----'
+My age is 9 and under (Geek in training?).
+
+'?'
+I am immortal.
+
+'!'
+It's none of your business how old I am.
+
+
+[tv:Television]
+
+'++'
+I just leave the tv on, to make sure I don't miss anything.
+
+'+'
+I watch some tv every day.
+
+''
+I watch only the shows that are actually worthwhile, such as those found on PBS.
+
+'-'
+I watch tv for the news and 'special programming.'
+
+'--'
+I turn my tv on during natural disasters.
+
+'!'
+I do not own a television.
+
+
+[b:Books]
+
+'++++'
+I read a book a day.  I have library cards in three states.  I have discount cards from every major bookstore.  I've ordered books from another country to get my Favorite Author Fix.
+
+'+++'
+I consume a few books a week as part of a staple diet.
+
+'++'
+I find the time to get through at least one new book a month.
+
+'+'
+I enjoy reading, but don't get the time very often.
+
+''
+I read the newspaper and the occasional book.
+
+'-'
+I read when there is no other way to get the information.
+
+'--'
+I did not actually READ the geek code, I just had someone tell me.
+
+
+[d:Dress]
+
+'++'
+I tend to wear conservative dress such as a business suit or worse, a tie.
+
+'+'
+Good leisure-wear.  Slacks, button-shirt, etc.  No jeans, tennis shoes, or t-shirts.
+
+''
+I dress a lot like those found in catalog ads.  Bland, boring, without life or meaning.
+
+'-'
+I'm usually in jeans and a t-shirt.
+
+'--'
+My t-shirts go a step further and have a trendy political message on them.
+
+'---'
+Punk dresser, including, but not limited to, torn jeans and shirts, body piercings, and prominent tattoos.
+
+'x'
+Cross Dresser
+
+'?'
+I have no idea what I am wearing right now, let alone what I wore yesterday.
+
+'!'
+No clothing.  Quite a fashion statement, don't you think?
+
+'pu'
+I wear the same clothes all the time, no matter the occasion, forgetting to do laundry between wearings.
+
+
+[e:Education]
+
+'+++++'
+I am Stephen Hawking.
+
+'++++'
+Managed to get my Ph.D.
+
+'+++'
+Got a Masters degree.
+
+'++'
+Got a Baccalaureate degree.
+
+'+'
+Got an Associate degree.
+
+''
+Finished High School.
+
+'-'
+Haven't finished High School.
+
+'--'
+Haven't even entered High School.
+
+
+[PE:Politics & Economic Issues]
+
+'+++'
+Abolish antitrust legislation.  Raise taxes on everyone but the rich so that the money can trickle-down to the masses.
+
+'++'
+Keep the government off the backs of businesses.  Deregulate as much as possible.
+
+'+'
+Balance the budget with spending cuts and an amendment.
+
+''
+Distrust both government and business.
+
+'-'
+It's ok to increase government spending, so we can help more poor people.  Tax the rich!  Cut the defense budget!
+
+'--'
+Capitalism is evil!  Government should provide the services we really need.  Nobody should be rich.
+
+
+[h:Housing]
+
+'++'
+Living in a cave with 47 computers and an Internet feed, located near a Dominoes pizza.  See !d.
+
+'+'
+Living alone, get out once a week to buy food, no more than once a month to do laundry.  All surfaces covered.
+
+''
+Friends come over to visit every once in a while to talk about Geek things.  There is a place for them to sit.
+
+'-'
+Living with one or more registered Geeks.
+
+'--'
+Living with one or more people who know nothing about being a Geek and refuse to watch Babylon 5.
+
+'---'
+Married, (persons living romantically with someone might as well label themselves h---, you're as good as there already.)
+
+'----'
+Married with children - Al Bundy can sympathize.
+
+'!'
+I am stuck living with my parents!
+
+'*'
+I'm not sure where I live anymore.  This lab/workplace seems like home to me.
+
+
+[o:Usenet Oracle]
+
+'+++++'
+I am Steve Kinzler
+
+'++++'
+I am an active Priest
+
+'+++'
+I was a Priest, but have retired.
+
+'++'
+I have made the Best Of Oracularities.
+
+'+'
+I have been incarnated at least once.
+
+''
+I've submitted a question, but it has never been incarnated.
+
+'-'
+I sent my question to the wrong group and got flamed.
+
+'--'
+Who needs answers from a bunch of geeks anyhow?
+
+
+[PGP:PGP]
+
+'++++'
+I am Philip Zimmerman.
+
+'+++'
+I don't send or answer mail that is not encrypted, or at the very least signed.  If you are reading this without decrypting it first, something is wrong.  IT DIDN'T COME FROM ME!
+
+'++'
+I have the most recent version and use it regularly.
+
+''
+I've used it, but stopped long ago.
+
+'-'
+I don't have anything to hide.
+
+'--'
+I feel that the glory of the Internet is in the anarchic, trusting environment that so nurtures the exchange of information.  Encryption just bogs that down.
+
+'---'
+If you support encryption on the Internet, you must be a drug dealer or terrorist or something like that.
+
+'----'
+Oh, here's is something you all can use that is better (insert Clipper here).
+
+
+[r:Relationships]
+
+'+++'
+Found someone, dated, and am now married.
+
+'++'
+I've dated my current S.O. for a long time.
+
+'+'
+I date frequently, bouncing from one relationship to another. 
+
+''
+I date periodically.
+
+'-'
+I have difficulty maintaining a relationship.
+
+'--'
+People just aren't interested in dating me.
+
+'---'
+I'm beginning to think that I'm a leper or something, the way people avoid me like the plague.
+
+'!'
+I've never had a relationship.
+
+'*'
+signifying membership in the SBCA (Sour Bachelor(ette)'s Club of America).  The motto is 'Bitter, but not Desperate'.  First founded at Caltech.
+
+'%'
+I was going out with someone, but the asshole dumped me.
+
+
+[5:Babylon 5]
+
+'++++'
+I am J. Michael Straczynski
+
+'+++'
+I am a True Worshipper of the Church of Joe who lives eats breathes and thinks Babylon 5, and has Evil thoughts about stealing Joe's videotape archives just to see episodes earlier.  I am planning to break into the bank and steal the triple-encoded synopsis of the 5-year arc.
+
+'+'
+Babylon 5 certainly presents a fresh perspective in the Sci-Fi universe.  I watch it weekly.
+
+''
+I've seen it, I am pretty indifferent to it.
+
+'-'
+This show is sub-par.  The acting is wooden, the special effects are obviously poor quality.  In general, it seems like a very cheap Star Trek ripoff.
+
+'--'
+You call this Sci-Fi?  That is such a load of crap!  This show is just a soap with bad actors, piss-poor effects, and lame storylines.  Puh-leese.  
+
+
+[s:Shape]
+
+'+++:'
+I usually have to duck through doors.
+
+'++:'
+I'm a basketball candidate.
+
+'+:'
+I'm a little taller than most.
+
+'-:'
+I look up to most people.
+
+'--:'
+I look up to damn near everybody.
+
+'---:'
+I take a phone book with me when I go out so I can see to eat dinner.
+
+':+++'
+I take up three movie seats.
+
+'+++'
+I take up three movie seats.
+
+':++'
+I'm a linebacker candidate.
+
+'++'
+I'm a linebacker candidate.
+
+':+'
+I'm a little rounder than most.
+
+'+'
+I'm a little rounder than most.
+
+':-'
+Everyone tells me to gain a few pounds.
+
+'-'
+Everyone tells me to gain a few pounds.
+
+':--'
+I tend to have to fight against a strong breeze.
+
+'--'
+I tend to have to fight against a strong breeze.
+
+':---'
+My bones are poking through my skin.
+
+'---'
+My bones are poking through my skin.
+
+':'
+I'm an average geek.
+
+
+[t:Star Trek]
+
+'+++'
+It's not just a TV show, it's a religion.  I know all about warp field dynamics and the principles behind the transporter.  I have memorized the TECH manual.  I speak Klingon.  I go to cons with Vulcan ears on.  I have no life.
+
+'++'
+It's the best show around.  I have all the episodes and the movies on tape and can quote entire scenes verbatim.  I've built a few of the model kits too.  But you'll never catch me at one of those conventions.  Those people are kooks.
+
+'+'
+It's a damn fine TV show and is one of the only things good on television any more.
+
+''
+It's just another TV show.
+
+'-'
+Maybe it is just me, but I have no idea what the big deal with Star Trek is.  Perhaps I'm missing something but I just think it is bad drama.
+
+'--'
+Star Trek is just another Space Opera.  William Shatner isn't an actor, he's a poser!  And what's with this Jean-Luc Picard?  A Frenchman with a British accent?  Come on.  I'd only watch this show if my remote control broke.  Isn't Voyager just a rehash of Lost in Space?  Has Sisko even breathed in the last two seasons?
+
+'---'
+Star Trek SUCKS!  It is the worst crap I have ever seen! Hey, all you trekkies out there, GET A LIFE!  (William Shatner is a t---).
+
+
+[PS:Politics & Social Issues]
+
+'+++'
+Legalize drugs!  Abolish the government.  Fuck the draft!
+
+'++'
+I give to liberal causes.  I march for gay rights.  I'm a card carrying member of the ACLU.  Keep abortion safe and legal.
+
+'+'
+My whole concept of liberalism is that nobody has the right to tell anybody else what to do, on either side of the political fence.  If you don't like it, turn the bloody channel.
+
+''
+I really don't have an opinion; nobody's messing with my freedoms right now.
+
+'-'
+Label records!  Keep dirty stuff off the TV and the Internet.
+
+'--'
+Oppose sex education, abortion rights, gay rights.  Rush Limbaugh is my spokesman.
+
+'---'
+Repent left-wing sinners and change your wicked evil ways. Buchanan/Robertson in '96.
+
+
+[w:MicroSoft Windows]
+
+'+++++'
+I am Bill Gates
+
+'++++'
+I have Windows, Windows 95, Windows NT, and Windows NT Advanced Server all running on my SMP RISC machine.  I haven't seen daylight in six months.
+
+'+++'
+I am a MS Windows programming god.  I wrote a VxD driver to allow MS Windows and DOS to share the use of my waffle iron.  P.S.  Unix sux.
+
+'++'
+I write MS Windows programs in C and think about using C++ someday.  I've written at least one DLL.
+
+'+'
+I have installed my own custom sounds, wallpaper, and screen savers so my PC walks and talks like a fun house.  Oh yeah, I have a hundred TrueType(tm) fonts that I've installed but never used.  I never lose Minesweeper and Solitaire
+
+''
+Ok, so I use MS Windows, I don't have to like it.
+
+'-'
+I'm still trying to install MS Windows and have at least one peripheral that never works right
+
+'--'
+MS Windows is a joke operating system.  Hell, it's not even an operating system.  NT is Not Tough enough for me either.  95 is how may times it will crash an hour.
+
+'---'
+Windows has set back the computing industry by at least 10 years.  Bill Gates should be drawn, quartered, hung, shot, poisoned, disembowelled, and then REALLY hurt.
+
+
+[x:Sex(Female)]
+
+'+++++'
+I am Madonna
+
+'++++'
+I have a few little rug rats to prove I've been there.  Besides, with kids around, who has time for sex?
+
+'+++'
+I'm married, so I can get it (theoretically) whenever I want.
+
+'++'
+I was once referred to as 'easy'.  I have no idea where that might have come from though.
+
+'+'
+I've had real, live sex.
+
+''
+I've had sex.  Oh!  You mean with someone else?  Then no.
+
+'-'
+Not having sex by choice.
+
+'--'
+Not having sex because I just can't get any...
+
+'---'
+Not having sex because I'm a nun or a priest.
+
+'*'
+I'm a pervert.
+
+'**'
+I've been known to make perverts look like angels.
+
+'!'
+Sex?  What's that?  I've had no sexual experiences.
+
+'?'
+It's none of your business what my sex life is like.
+
+'!x+'
+Sex? What's that? No experience, willing to learn!
+
+
+[y:Sex(Male)]
+
+'++++'
+I have a few little rug rats to prove I've been there.  Besides, with kids around, who has time for sex?
+
+'+++'
+I'm married, so I can get it (theoretically) whenever I want.
+
+'++'
+I was once referred to as 'easy'.  I have no idea where that might have come from though.
+
+'+'
+I've had real, live sex.
+
+''
+I've had sex.  Oh!  You mean with someone else?  Then no.
+
+'-'
+Not having sex by choice.
+
+'--'
+Not having sex because I just can't get any...
+
+'---'
+Not having sex because I'm a nun or a priest.
+
+'*'
+I'm a pervert.
+
+'**'
+I've been known to make perverts look like angels.
+
+'!'
+Sex?  What's that?  I've had no sexual experiences.
+
+'?'
+It's none of your business what my sex life is like.
+
+'!y+'
+Sex? What's that? No experience, willing to learn!
+
+
+[z:Sex(Undisclosed)]
+
+'++++'
+I have a few little rug rats to prove I've been there.  Besides, with kids around, who has time for sex?
+
+'+++'
+I'm married, so I can get it (theoretically) whenever I want.
+
+'++'
+I was once referred to as 'easy'.  I have no idea where that might have come from though.
+
+'+'
+I've had real, live sex.
+
+''
+I've had sex.  Oh!  You mean with someone else?  Then no.
+
+'-'
+Not having sex by choice.
+
+'--'
+Not having sex because I just can't get any...
+
+'---'
+Not having sex because I'm a nun or a priest.
+
+'*'
+I'm a pervert.
+
+'**'
+I've been known to make perverts look like angels.
+
+'!'
+Sex?  What's that?  I've had no sexual experiences.
+
+'?'
+It's none of your business what my sex life is like.
+
+'!z+'
+Sex? What's that? No experience, willing to learn!
+
+

@@ -1,0 +1,40 @@
+#!/usr/bin/perl
+
+use Convert::GeekCode;
+
+my $VERSION = '0.1';
+
+=head1 NAME
+
+geekdec - Geek code decoder
+
+=head1 SYNOPSIS
+
+    % geekdec [code] [version] [charset] < codeset 
+
+=head1 DESCRIPTION
+
+This script parses Geek Code sequences fetched from STDIN.
+
+=cut
+
+my ($code, $ver, $charset) = ('geekcode', '3.12', 'en_us');
+
+foreach (@ARGV) {
+    if (/^[\d\.]+$/) {
+        $ver = $_;
+    }
+    elsif (/^\w\w_\w\w$/) {
+        $charset = $_;
+    }
+    elsif ($_) {
+        $code = $_;
+    }
+}
+
+my @out = geek_decode(join('', <STDIN>), $code, $ver, $charset);
+
+while (my ($key, $val) = splice(@out, 0, 2)) {
+    print "[$key]\n$val\n\n";
+}
+

@@ -1,0 +1,70 @@
+#!/usr/bin/perl
+
+use Convert::GeekCode;
+use Text::Wrap;
+
+my $VERSION = '0.1';
+
+=head1 NAME
+
+geekgen - Geek code generator
+
+=head1 SYNOPSIS
+
+    % geekgen [code] [version] [charset] 
+
+=head1 DESCRIPTION
+
+This script generates Geek Code sequences as per user's input. Currently
+it's broken on two topics: Sex and Unix. User could mix numerical selections 
+with usual symbols like (), >, ! and @.
+
+=cut
+
+$Text::Wrap::columns = 80;
+my ($code, $ver, $charset) = ('geekcode', '3.12', 'en_us');
+
+foreach (@ARGV) {
+    if (/^[\d\.]+$/) {
+        $ver = $_;
+    }
+    elsif (/^\w\w_\w\w$/) {
+        $charset = $_;
+    }
+    elsif ($_) {
+        $code = $_;
+    }
+}
+
+my $out = geek_encode(sub  {
+    my $i = 1;
+    print "\n$_[0]\n","="x 79,"\n";
+    my $len1 = length($#_/2);
+    my $len2 = 1 + length((
+        sort {
+            length($a) <=> length($b)
+        } map {
+            $_[$_*2-1]
+        } (1..$#_/2)
+    )[-1]);
+    my $lines = 0;
+    while (defined $_[$i*2-1]) {
+        my $txt = wrap(
+            sprintf("\%${len1}d %-${len2}s", $i, $_[$i*2-1]),
+            " " x ($len1 + $len2 + 1),
+            $_[$i*2]
+        ). "\n";
+        print $txt;
+        $lines += $#{[$txt =~ m/\n/g]}+1;
+
+        $i++;
+    }
+    print "\n" x (21 - $lines);
+    print "Enter your $_[0] code here [h for help]: ";
+    my $inp = <STDIN>;
+    chomp $inp;
+    $inp =~ s/(\d+)/$_[$1*2-1]/g;
+    return $inp;
+}, $code, $ver, $charset);
+
+print $out;
