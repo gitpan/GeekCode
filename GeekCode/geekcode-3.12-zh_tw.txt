@@ -243,20 +243,21 @@ Unix 爛透了. 因為 Linux = Unix. Linux 爛透了. 我崇拜比爾蓋茲.
 [M:Macintosh]
 
 '++'
-I am a Mac guru.  Anything those DOS putzes and unix nerds can do, I can do better, and if not, I'll write the damn software to do it.
+我是個麥金塔大師. 任何 DOS 瘋子和 Linux 怪胎行的, 我也都會. 要是沒有
+這項功能, 我就自己寫軟體來做到.
 
 '+'
-A Mac has it's uses and I use it quite often.
+麥金塔有它的用處, 我經常使用它.
 
 ''
-I use a Mac, but I'm pretty indifferent about it.
+我用麥金塔, 但是沒有什麼特別意見.
 
 '-'
-Macs suck.  All real geeks have a character prompt.
+麥金塔爛透了. 所有真正的技客都有個命令列.
 
 '--'
-Macs do more than suck.  They make a user stupid by allowing them to use the system without knowing what they are doing.  Mac weenies have lower IQs than the fuzz in my navel.
-
+麥金塔不止是爛透了. 它們讓使用者變笨, 讓不知道自己在做什麼的人也能操
+作系統. 麥金塔小腳的智商比我肚臍眼裡的跳蚤還低.
 
 [N:Usenet]
 
@@ -318,34 +319,41 @@ I am Bill Gates of Borg.  OS/2 is irrelevant.
 [P:Perl]
 
 '+++++'
-I am Larry Wall, Tom Christiansen, or Randal Schwartz.
+我是 Larry Wall, Tom Christiansen, 或 Randal Schwartz.
 
 '++++'
-I don't write Perl, I speak it.  Perl has superseded all other programming languages.  I firmly believe that all programs can be reduced to a Perl one-liner.  I use Perl to achieve U+++ status.
+我不止寫 Perl, 我用它來說話. Perl 超越了一切其它的程式語言.
+我徹底認為所有程式都可以化簡成一行 Perl. 我用 Perl 達到 U+++
+的境界.
 
 '+++'
-Perl is a very powerful programming tool. Not only do I no longer write shell scripts,  I also no longer use awk or sed.  I use Perl for all programs of less than a thousand lines.
+Perl 是個非常強力的程式工具. 我不僅停止寫 shell scripts, 也
+不再使用 awk 或 sed 了. 少於一千行的程式我都用 perl 來寫.
 
 '++'
-Perl is a powerful programming tool.  I don't write shell scripts anymore because I write them in Perl.
+Perl 是個強力的程式工具. 我不再寫 shell scripts, 都改用 Perl
+寫了.
 
 '+'
-I know of perl.  I like perl.  I just haven't learned much perl, but it is on my agenda.
+我知道 Perl. 我喜歡 Perl. 我祗是沒有學到太多 Perl, 但是打算
+如此.
 
 ''
-I know Perl exists, but that's all.
+我知道有 perl, 就這樣而已.
 
 '-'
-What's Perl got that awk and sed don't have?
+Perl 難道有什麼超過 awk 和 sed 的功能嗎?
 
 '--'
-Perl users are sick, twisted programmers who are just showing off.
+
+Perl 的使用者全是些病態, 心理不正常的程式設計師, 祗知道賣弄.
 
 '---'
-Perl combines the power of sh, the clarity of sed, and the performance of awk with the simplicity of C.  It should be banned.
+Perl 結合了 sh 的威力, sed 的易懂, awk 的效率與 C 的簡潔.
+它應該被禁用.
 
 '?'
-What's Pearl?
+什麼是 Pearl?
 
 
 [R:Role-Playing]

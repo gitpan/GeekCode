@@ -1,10 +1,13 @@
-use lib 'blib/lib';
-use Convert::GeekCode;
-use Test;
+#!/usr/bin/perl -w
+# $File: //member/autrijus/GeekCode/test.pl $ $Author: autrijus $
+# $Revision: #6 $ $Change: 2167 $ $DateTime: 2001/10/20 01:26:54 $
+
 use strict;
+use Test;
 
 BEGIN { plan tests => 2 }
-ok(1);
+
+ok(eval("use Convert::GeekCode; 1"));
 
 my @out = geek_decode(<<'.', 'geekcode', 3.12, 'zh_tw');
 -----BEGIN GEEK CODE BLOCK-----

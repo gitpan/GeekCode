@@ -1,4 +1,15 @@
+# $File: //member/autrijus/GeekCode/GeekCode.pm $ $Author: autrijus $
+# $Revision: #6 $ $Change: 2163 $ $DateTime: 2001/10/20 01:13:44 $
+
 package Convert::GeekCode;
+require 5.001;
+
+$Convert::GeekCode::VERSION = '0.4';
+
+use strict;
+use vars qw/@ISA @EXPORT $VERSION $DELIMITER/;
+
+use Exporter;
 
 =head1 NAME
 
@@ -8,37 +19,32 @@ Convert::GeekCode - Convert and generate geek code sequences.
 
     use Convert::GeekCode; # exports geek_decode()
 
-    print geek_decode(<<'.'); # yes, that's author's geek code
------BEGIN GEEK CODE BLOCK-----
-Version: 3.12
-GB/C/CM/CS/CC/ED/H/IT/L/M/MU/P/SS/TW/AT d---x s+: a--- C++++ UB++++
-P++++$ L+ E--- W+++$ N++ o? K w++(++++) O-- M- V-- PS+++ PE Y+
-PGP- t+ 5? X+ R+++ !tv b++++ DI+++@ D++ G+++ e-- h* r+ z**
-------END GEEK CODE BLOCK------
-.
+    my @out = geek_decode(q(
+    -----BEGIN GEEK CODE BLOCK-----
+    Version: 3.12
+    GB/C/CM/CS/CC/ED/H/IT/L/M/MU/P/SS/TW/AT d---x s+: a--- C++++ UB++++
+    P++++$ L+ E--- W+++$ N++ o? K w++(++++) O-- M- V-- PS+++ PE Y+
+    PGP- t+ 5? X+ R+++ !tv b++++ DI+++@ D++ G+++ e-- h* r+ z**
+    ------END GEEK CODE BLOCK------
+    )); # yes, that's the author's geek code
+
+    my ($key, $val);
+    print "[$key]\n$val\n\n" while (($key, $val) = splice(@out, 0, 2));
+
+=head1 DESCRIPTION
+
+B<Convert::GeekCode> converts and generates Geek Code sequences (cf.
+L<http://geekcode.com/>). It supports different charsets and
+user-customizable codesets.
+
+The F<geekgen> and F<geekdec> utilities are installed by default,
+and may be used to generate / decode geek code blocks, respectively.
 
 =cut
 
-# ------------------------
-# Modules and declarations
-# ------------------------
-
-require 5.001;
-
-use vars qw/@ISA @EXPORT $VERSION $DELIMITER/;
-
-$VERSION   = '0.3';
+@ISA	= qw/Exporter/;
+@EXPORT	= qw/geek_encode geek_decode/;
 $DELIMITER = " ";
-
-use strict;
-use Exporter;
-
-# ----------------
-# Exporter section
-# ----------------
-
-@ISA    = qw/Exporter/;
-@EXPORT = qw/geek_encode geek_decode/;
 
 sub new {
     my $class   = shift;
@@ -55,6 +61,7 @@ sub new {
         
     while (<_>) {
         chomp;
+
         if (/^\[([^:]*):(.*)\]$/) {
             $cursec = $1;
             $self->{_}{$cursec}{_} = $2;
@@ -66,6 +73,7 @@ sub new {
             elsif ($curcode) {
                 $self->{$curcode} = $curval;
             }
+
             $curcode = '';
         }
         elsif ($curcode) {
@@ -76,23 +84,25 @@ sub new {
             $curval  = '';
         }
     }
+
     close _;
 
     return bless($self, $class);
 }
 
 sub decode {
-    my $self = shift;
-    my $code = shift;
-    my @ret;
+    my ($self, $code) = @_;
 
-    $code = $1
-        if $code =~ m|\Q$self->{Head}\E([\x00-\xff]+)\Q$self->{Tail}\E| or
-            die "can't find geek code block; stop.";
-    $code =~ s|[\x00-\xff]*?^$self->{Begin}|_|m or die;
+    die "can't find geek code block; stop."
+	unless $code =~ m|\Q$self->{Head}\E([\x00-\xff]+)\Q$self->{Tail}\E|;
+
+    $code = $1; $code =~ s|[\x00-\xff]*?^$self->{Begin}|_|m or die;
+
+    my @ret;
 
     foreach my $chunk (split(/[\s\t\n\r]+/, $code)) {
         next unless $chunk =~ m|^(\!?\w+)\b|;
+
         my $head = $1;
         while ($head) {
             if (exists($self->{_}{$head})) {
@@ -111,9 +121,11 @@ sub decode {
                     warn "parse error: ", substr($chunk, 0, 1);
                     $chunk = substr($chunk, 1);
                 }
+
                 push @ret, $out;
                 last;
             }
+
             $head = substr($head, 0, -1);
         }
     }
@@ -122,22 +134,24 @@ sub decode {
 }
 
 sub encode {
-    my $self = shift;
-    my $code = shift;
-    my @out;
+    my ($self, $code) = @_;
 
+    my @out;
     foreach my $sec (split(/[\s\t\n\r]+/, $self->{Sequence})) {
         my $secref = $self->{_}{$sec} or next;
         $sec = $self->{Begin} if $sec eq '_';
         push @out, $code->($secref->{_}, map {
             my $sym = $secref->{$_};
             s/[\x27\/]//g;
-            (((index($_, $sec) > -1) ? $_ : $_ eq '!' ? "$_$sec" : "$sec$_"), $sym);
+            (((index($_, $sec) > -1) 
+		? $_ : ($_ eq '!' ? "$_$sec" : "$sec$_")
+	    ), $sym);
         } grep {
             $_ ne '_' and length($_)
         } sort {
             calcv($a) cmp calcv($b);
         } keys(%{$secref}));
+
         $out[-1] =~ s|\s+|/|g;
         $out[-1] =~ s|/+$||;
         $out[-1] =~ s|(?<=.)$sec||g;
@@ -155,18 +169,10 @@ sub encode {
 sub calcv {
     my $sym = shift or return '';
 
-    if (substr($sym, 1, 1) eq '+') {
-        return chr(0) x (10 - length($sym));
-    }
-    elsif (substr($sym, 1, 1) eq '-') {
-        return chr(2) x length($sym);
-    }
-    elsif ($sym eq "''") {
-        return chr(1);
-    }
-    else {
-        return $sym;
-    }
+    return chr(0) x (10 - length($sym))	if substr($sym, 1, 1) eq '+';
+    return chr(2) x length($sym)	if substr($sym, 1, 1) eq '-';
+    return chr(1)			if $sym eq "''";
+    return $sym;
 }
 
 sub tokenize {
@@ -189,6 +195,7 @@ sub tokenize {
             }
         }
     }
+
     return;
 }
 
@@ -227,17 +234,21 @@ sub geek_encode {
 
 __END__
 
-=head1 DESCRIPTION
+=head1 SEE ALSO
 
-Convert::GeekCode converts and generates Geek Code L<http://geekcode.com/>
-sequences. It supports different charsets and user-customizable codesets.
+L<geekgen>, L<geekdec>
 
 =head1 AUTHORS
 
 Autrijus Tang E<lt>autrijus@autrijus.org>
 
-Copyright (c) 2001 by Autrijus Tang.  All rights reserved.
-This module is free software; you can redistribute it and/or
+=head1 COPYRIGHT
+
+Copyright 2001 by Autrijus Tang E<lt>autrijus@autrijus.org>.
+
+This program is free software; you can redistribute it and/or 
 modify it under the same terms as Perl itself.
+
+See L<http://www.perl.com/perl/misc/Artistic.html>
 
 =cut

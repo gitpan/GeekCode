@@ -1,31 +1,27 @@
-                     Convert::GeekCode version 0.1
-               (Convert and generate geek code sequences)
+# $File: //member/autrijus/GeekCode/README $ $Author: autrijus $
+# $Revision: #2 $ $Change: 2162 $ $DateTime: 2001/10/20 01:13:05 $
 
-  Copyright 2001 by Autrijus Tang <autrijus@autrijus.org>.
+This is the README file for Conver::GeekCode, an utility
+module to convert and generate geek code sequences, by
+Autrijus Tang.
 
-  All rights reserved.  This module is free software; you can
-  redistribute it and/or modify it under the same terms as Perl
-  itself.
+Please see the POD documentations for complete details,
+features, and usage.
 
+* Installation
 
-INTRODUCTION
+Convert::GeekCode uses the standard perl module install process:
 
-  XXX TODO
+perl Makefile.PL
+make
+make test
+make install
 
-  See the POD documentation for complete details, features, and usage.
+* Copyright
 
+Copyright 2001 by Autrijus Tang <autrijus@autrijus.org>,
 
-INSTALLATION
+All rights reserved.  You can redistribute and/or modify
+this bundle under the same terms as Perl itself.
 
-  Follow the standard installation procedure for Perl modules, which is to
-  type the following commands:
-
-          perl Makefile.PL
-          make
-          make test
-          make install
-
-  You'll probably need to do the last as root.  If instead you wish to
-  install the module by hand, simply copy it into a directory named Term in
-  your Perl library directory.
-
+See <http://www.perl.com/perl/misc/Artistic.html>.

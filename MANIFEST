@@ -1,5 +1,5 @@
 GeekCode.pm
-ChangeLog
+Changes
 MANIFEST
 Makefile.PL
 README
@@ -8,4 +8,3 @@ GeekCode/geekcode-3.12-en_us.txt
 GeekCode/geekcode-3.12-zh_tw.txt
 bin/geekdec
 bin/geekgen
-

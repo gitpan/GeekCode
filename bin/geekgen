@@ -1,10 +1,12 @@
 #!/usr/bin/perl -w
+# $File: //member/autrijus/GeekCode/bin/geekgen $ $Author: autrijus $
+# $Revision: #5 $ $Change: 2167 $ $DateTime: 2001/10/20 01:26:54 $
 
-use Convert::GeekCode;
-use Text::Wrap;
 use strict;
+use Text::Wrap;
+use Convert::GeekCode;
 
-my $VERSION = '0.3';
+my $VERSION = '0.4';
 
 =head1 NAME
 
@@ -12,12 +14,13 @@ geekgen - Geek Code generator
 
 =head1 SYNOPSIS
 
-    % geekgen [code|version|charset]
+B<geekgen> [I<code>|I<version>|I<charset>...]
 
 =head1 DESCRIPRTION
 
-This script generates Geek Code sequences as per user's input. User could
-mix numerical selections with usual symbols like (), >, ! and @.
+This script generates Geek Code sequences interactively, according
+to user's input. User could mix numerical selections with usual
+symbols like (), >, ! and @.
 
 =head1 BUGS
 
@@ -30,7 +33,7 @@ A simple WWW Front-end sounds cool.
 
 =cut
 
-if ($ARGV[0] eq '-h') {
+if (@ARGV and $ARGV[0] eq '-h') {
     print "Usage: $0 [code|version|charset]\n";
     exit;
 }
@@ -92,3 +95,22 @@ my $out = geek_encode(sub  {
 print $out;
 
 __END__
+
+=head1 SEE ALSO
+
+L<Convert::GeekCode>, L<geekdec>
+
+=head1 AUTHORS
+
+Autrijus Tang E<lt>autrijus@autrijus.org>
+
+=head1 COPYRIGHT
+
+Copyright 2001 by Autrijus Tang E<lt>autrijus@autrijus.org>.
+
+This program is free software; you can redistribute it and/or 
+modify it under the same terms as Perl itself.
+
+See L<http://www.perl.com/perl/misc/Artistic.html>
+
+=cut
