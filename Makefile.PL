@@ -1,6 +1,7 @@
 # Makefile.PL for Convert::GeekCode module  -*- perl -*-
 
 use ExtUtils::MakeMaker;
+require 5.005;
 
 WriteMakefile (
     NAME         => 'Convert::GeekCode',

@@ -1,31 +1,33 @@
-#!/usr/bin/perl
+#!/usr/bin/perl -w
 
 use Convert::GeekCode;
+use Text::Wrap;
+use strict;
 
-my $VERSION = '0.1';
+my $VERSION = '0.2';
 
 =head1 NAME
 
-geekdec - Geek code decoder
+geekdec - Geek Code decoder
 
 =head1 SYNOPSIS
 
-    % geekdec [code] [version] [charset] < codeset 
+    % geekgen [code|version|charset]
 
-=head1 DESCRIPTION
+=head1 DESCRIPRTION
 
 This script parses Geek Code sequences fetched from STDIN.
 
 =cut
 
-my ($code, $ver, $charset) = ('geekcode', '3.12', 'en_us');
+my ($code, $ver, $charset) = ('geekcode', 3.12, 'en_us');
 
 foreach (@ARGV) {
     if (/^[\d\.]+$/) {
         $ver = $_;
     }
-    elsif (/^\w\w_\w\w$/) {
-        $charset = $_;
+    elsif (/^(\w\w)[\-\_](\w\w)$/) {
+        $charset = "$1_$2"; # converts en-us to en_us
     }
     elsif ($_) {
         $code = $_;
@@ -38,3 +40,4 @@ while (my ($key, $val) = splice(@out, 0, 2)) {
     print "[$key]\n$val\n\n";
 }
 
+__END__

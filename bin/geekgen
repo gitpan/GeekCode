@@ -1,35 +1,45 @@
-#!/usr/bin/perl
+#!/usr/bin/perl -w
 
 use Convert::GeekCode;
 use Text::Wrap;
+use strict;
 
-my $VERSION = '0.1';
+my $VERSION = '0.2';
 
 =head1 NAME
 
-geekgen - Geek code generator
+geekgen - Geek Code generator
 
 =head1 SYNOPSIS
 
-    % geekgen [code] [version] [charset] 
+    % geekgen [code|version|charset]
 
-=head1 DESCRIPTION
+=head1 DESCRIPRTION
 
-This script generates Geek Code sequences as per user's input. Currently
-it's broken on two topics: Sex and Unix. User could mix numerical selections 
-with usual symbols like (), >, ! and @.
+This script generates Geek Code sequences as per user's input. User could
+mix numerical selections with usual symbols like (), >, ! and @.
+
+=head1 BUGS
+
+Currently it's broking on two topics: Sex and Unix, due to lack of
+implementation on multiple-selections.
+
+=head1 TODO
+
+A simple WWW Front-end sounds cool.
 
 =cut
 
 $Text::Wrap::columns = 80;
-my ($code, $ver, $charset) = ('geekcode', '3.12', 'en_us');
+
+my ($code, $ver, $charset) = ('geekcode', 3.12, 'en_us');
 
 foreach (@ARGV) {
     if (/^[\d\.]+$/) {
         $ver = $_;
     }
-    elsif (/^\w\w_\w\w$/) {
-        $charset = $_;
+    elsif (/^(\w\w)[\-\_](\w\w)$/) {
+        $charset = "$1_$2"; # converts en-us to en_us
     }
     elsif ($_) {
         $code = $_;
@@ -38,33 +48,42 @@ foreach (@ARGV) {
 
 my $out = geek_encode(sub  {
     my $i = 1;
-    print "\n$_[0]\n","="x 79,"\n";
-    my $len1 = length($#_/2);
+    print "\n$_[0]\n", "=" x 79, "\n";
+    my $len1 = length($#_ / 2);
     my $len2 = 1 + length((
         sort {
             length($a) <=> length($b)
         } map {
-            $_[$_*2-1]
-        } (1..$#_/2)
+            $_[$_ * 2 - 1]
+        } (1.. $#_ / 2)
     )[-1]);
-    my $lines = 0;
-    while (defined $_[$i*2-1]) {
-        my $txt = wrap(
-            sprintf("\%${len1}d %-${len2}s", $i, $_[$i*2-1]),
-            " " x ($len1 + $len2 + 1),
-            $_[$i*2]
-        ). "\n";
-        print $txt;
-        $lines += $#{[$txt =~ m/\n/g]}+1;
 
-        $i++;
+    my $lines = 0;
+    while (defined $_[$i * 2 - 1]) {
+        my $txt = wrap(
+            sprintf("\%${len1}d %-${len2}s", $i, $_[$i * 2 - 1]),
+            ' ' x ($len1 + $len2 + 1),
+            $_[$i++ * 2]
+        );
+        if ($_[0] eq 'Geek Type' and not $i % 2 and length($txt) < 40) {
+            $txt .= (' ' x (40-length($txt)));
+            }
+            else {
+            $txt .= "\n";
+            }
+
+        print $txt;
+        $lines += $#{[$txt =~ m/\n/g]} + 1;
     }
+
     print "\n" x (21 - $lines);
-    print "Enter your $_[0] code here [h for help]: ";
+    print "Enter your $_[0] code here [()>!\@ okay]: ";
     my $inp = <STDIN>;
     chomp $inp;
-    $inp =~ s/(\d+)/$_[$1*2-1]/g;
+    $inp =~ s/(\d+)/$_[$1 * 2 - 1]/g;
     return $inp;
 }, $code, $ver, $charset);
 
 print $out;
+
+__END__

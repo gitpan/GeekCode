@@ -6,14 +6,14 @@ Convert::GeekCode - Convert and generate geek code sequences.
 
 =head1 SYNOPSIS
 
-    use Convert::GeekCode; # exports geek_decode() 
-    
+    use Convert::GeekCode; # exports geek_decode()
+
     print geek_decode(<<'.'); # yes, that's author's geek code
 -----BEGIN GEEK CODE BLOCK-----
 Version: 3.12
 GB/C/CM/CS/CC/ED/H/IT/L/M/MU/P/SS/TW/AT d---x s+: a--- C++++ UB++++
-P++++$ L+ E--- W+++$ N++ o? K w++(++++) O-- M- V-- PS+++ PE Y+  
-PGP- t+ 5? X+ R+++ !tv b++++ DI+++@ D++ G+++ e-- h* r+ z**  
+P++++$ L+ E--- W+++$ N++ o? K w++(++++) O-- M- V-- PS+++ PE Y+
+PGP- t+ 5? X+ R+++ !tv b++++ DI+++@ D++ G+++ e-- h* r+ z**
 ------END GEEK CODE BLOCK------
 .
 
@@ -27,7 +27,7 @@ require 5.001;
 
 use vars qw/@ISA @EXPORT $VERSION $DELIMITER/;
 
-$VERSION = '0.1';
+$VERSION = '0.2';
 $DELIMITER = " ";
 
 use strict;
@@ -49,8 +49,9 @@ sub new {
     my ($cursec, $curcode, $curval);
 
     $lang =~ tr/-/_/; # paranoia
-    
-    open _, locate("GeekCode/$id-$version-$lang.txt");
+
+    open _, locate("$id-$version-$lang.txt")
+        or die "canno locate $id-$version-$lang.txt in @INC";
     while (<_>) {
         chomp;
         if (/^\[([^:]*):(.*)\]$/) {
@@ -59,7 +60,7 @@ sub new {
         }
         elsif (!$_) {
             if (defined $cursec) {
-                $self->{_}{$cursec}{$curcode} = $curval; 
+                $self->{_}{$cursec}{$curcode} = $curval;
             }
             elsif ($curcode) {
                 $self->{$curcode} = $curval;
@@ -84,11 +85,11 @@ sub decode {
     my $code = shift;
     my @ret;
 
-    $code = $1 
+    $code = $1
         if $code =~ m|\Q$self->{Head}\E([\x00-\xff]+)\Q$self->{Tail}\E| or
             die "can't find geek code block; stop.";
     $code =~ s|[\x00-\xff]*?^$self->{Begin}|_|m or die;
-    
+
     foreach my $chunk (split(/[\s\t\n\r]+/, $code)) {
         next unless $chunk =~ m|^(\!?\w+)\b|;
         my $head = $1;
@@ -125,9 +126,9 @@ sub encode {
     my @out;
 
     foreach my $sec (split(/[\s\t\n\r]+/, $self->{Sequence})) {
-        my $secref = $self->{_}{$sec};
+        my $secref = $self->{_}{$sec} or next;
         $sec = $self->{Begin} if $sec eq '_';
-        push @out, $code->($secref->{_}, map { 
+        push @out, $code->($secref->{_}, map {
             my $sym = $secref->{$_};
             s/[\x27\/]//g;
             (((index($_, $sec) > -1) ? $_ : $_ eq '!' ? "$_$sec" : "$sec$_"), $sym);
@@ -147,11 +148,12 @@ sub encode {
         join(' ', @out),
         $self->{Tail},
         '',
-    ); 
+    );
 }
 
 sub calcv {
-    my $sym = shift;
+    my $sym = shift or return '';
+
     if (substr($sym, 1, 1) eq '+') {
         return chr(0) x (10 - length($sym));
     }
@@ -171,7 +173,7 @@ sub tokenize {
 
     foreach my $key (sort {length($b) <=> length($a)} keys(%{$sec})) {
         next if $key eq '_' or !$key or $key eq "''";
-            
+
         if ($key =~ m|/(.+)/|) {
             if ($$chunk =~ s|^$1||) {
                 $$out .= $sec->{$key} . $DELIMITER;
@@ -209,14 +211,14 @@ sub locate {
 sub geek_decode {
     my $code = shift;
     my $obj = __PACKAGE__->new(@_); # XXX should auto-detect version
-    
+
     return $obj->decode($code);
 }
 
 sub geek_encode {
     my $code = shift;
     my $obj = __PACKAGE__->new(@_); # XXX should auto-detect version
-    
+
     return $obj->encode($code);
 }
 
@@ -233,8 +235,8 @@ sequences. It supports different charsets and user-customizable codesets.
 
 Autrijus Tang E<lt>autrijus@autrijus.org>
 
-Copyright (c) 2001 by Autrijus Tang.  All rights reserved.  
-This module is free software; you can redistribute it and/or 
+Copyright (c) 2001 by Autrijus Tang.  All rights reserved.
+This module is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself.
 
 =cut
