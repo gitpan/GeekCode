@@ -1,3 +1,7 @@
+2001-02-06  Autrijus Tang <autrijus@autrijus.org>
+     First working version on non-Win32 platform; was
+     broken due to crlf problems.
+
 2001-02-04  Autrijus Tang <autrijus@autrijus.org>
 
      Added the missing bin/*.

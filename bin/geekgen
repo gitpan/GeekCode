@@ -4,7 +4,7 @@ use Convert::GeekCode;
 use Text::Wrap;
 use strict;
 
-my $VERSION = '0.2';
+my $VERSION = '0.3';
 
 =head1 NAME
 
@@ -29,6 +29,11 @@ implementation on multiple-selections.
 A simple WWW Front-end sounds cool.
 
 =cut
+
+if ($ARGV[0] eq '-h') {
+    print "Usage: $0 [code|version|charset]\n";
+    exit;
+}
 
 $Text::Wrap::columns = 80;
 

@@ -27,7 +27,7 @@ require 5.001;
 
 use vars qw/@ISA @EXPORT $VERSION $DELIMITER/;
 
-$VERSION = '0.2';
+$VERSION   = '0.3';
 $DELIMITER = " ";
 
 use strict;
@@ -51,7 +51,8 @@ sub new {
     $lang =~ tr/-/_/; # paranoia
 
     open _, locate("$id-$version-$lang.txt")
-        or die "canno locate $id-$version-$lang.txt in @INC";
+        or die "cannot locate $id-$version-$lang.txt in @INC";
+        
     while (<_>) {
         chomp;
         if (/^\[([^:]*):(.*)\]$/) {

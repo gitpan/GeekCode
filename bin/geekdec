@@ -4,7 +4,7 @@ use Convert::GeekCode;
 use Text::Wrap;
 use strict;
 
-my $VERSION = '0.2';
+my $VERSION = '0.3';
 
 =head1 NAME
 
@@ -12,13 +12,18 @@ geekdec - Geek Code decoder
 
 =head1 SYNOPSIS
 
-    % geekgen [code|version|charset]
+    % geekdec [code|version|charset] << file
 
 =head1 DESCRIPRTION
 
 This script parses Geek Code sequences fetched from STDIN.
 
 =cut
+
+if ($ARGV[0] eq '-h') {
+    print "Usage: $0 [code|version|charset] << file\n";
+    exit;
+}
 
 my ($code, $ver, $charset) = ('geekcode', 3.12, 'en_us');
 
